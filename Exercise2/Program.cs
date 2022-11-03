@@ -10,7 +10,7 @@ namespace Exercise2
     {
         static void Main(string[] args)
         {
-            int i, n, wt, temp;
+            int tgr, n, wt, temp;
             int[] arr = new int[50];
 
             // tent banyak data
@@ -18,10 +18,10 @@ namespace Exercise2
             n = Convert.ToInt32(Console.ReadLine());
 
             //input data array
-            for (i = 0; i <= n- 1; i++)
+            for (tgr = 0; tgr <= n- 1; tgr++)
             {
-                Console.Write("Data ke {0} : ", i + 1);
-                arr[i] = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Data ke {0} : ", tgr + 1);
+                arr[tgr] = Convert.ToInt32(Console.ReadLine());
             }
         }
     }
