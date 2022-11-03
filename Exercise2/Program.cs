@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Exercise2
 {
-    internal class Program
+    internal class Exercise
     {
         static void Main(string[] args)
         {
+            int i, n, wt, temp;
+            int[] arr = new int[50];
         }
     }
 }
