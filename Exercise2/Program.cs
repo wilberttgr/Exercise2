@@ -30,6 +30,14 @@ namespace Exercise2
             {
                 Console.Write("{0} ", arr[tgr]);
             }
+
+            // menu
+            Console.Write("\n");
+            Console.WriteLine("Pilih");
+            Console.WriteLine("1. Merge Sort");
+            Console.WriteLine("2. Insertion Sort");
+            Console.Write("Pilihan : ");
+            int pilihan = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
