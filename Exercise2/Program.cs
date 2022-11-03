@@ -72,6 +72,14 @@ namespace Exercise2
                     break;
 
             }
+            //data sesudah diurutkan 
+            Console.WriteLine();
+            Console.WriteLine("Data sesudah diurutkan");
+            for (tgr = 0; tgr <= n - 1; tgr++)
+            {
+                Console.Write("{0} ", arr[tgr]);
+            }
+            Console.ReadKey();
         }
     }
 }
