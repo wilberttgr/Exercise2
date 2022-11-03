@@ -41,6 +41,20 @@ namespace Exercise2
             
             switch (pilihan)
             {
+                case 1:
+                    for (tgr = 1; tgr < n; tgr++)
+                    {
+                        for (wt = 0; wt < n - tgr; wt++)
+                        {
+                            if (arr[wt] > arr[wt + 1]) 
+                            {
+                                temp = arr[wt];
+                                arr[wt] = arr[wt + 1];
+                                arr[wt + 1] = temp;
+                            }
+                        }
+                    }
+                    break;
 
             }
         }
