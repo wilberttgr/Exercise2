@@ -55,6 +55,21 @@ namespace Exercise2
                         }
                     }
                     break;
+                case 2:
+                    //Insertion Sort
+                    wt = 0;
+                    for (tgr = 1; tgr <= n - 1; tgr++)
+                    {
+                        temp = arr[tgr];
+                        wt = tgr - 1;
+                        while ((wt >= 0) && (arr[wt] >= temp))
+                        {
+                            arr[wt + 1] = arr[wt];
+                            wt--;
+                        }
+                        arr[wt + 1] = temp;
+                    }
+                    break;
 
             }
         }
