@@ -16,6 +16,13 @@ namespace Exercise2
             // tent banyak data
             Console.Write("Jumlah Data : ");
             n = Convert.ToInt32(Console.ReadLine());
+
+            //input data array
+            for (i = 0; i <= n- 1; i++)
+            {
+                Console.Write("Data ke {0} : ", i + 1);
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
