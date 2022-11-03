@@ -23,6 +23,13 @@ namespace Exercise2
                 Console.Write("Data ke {0} : ", tgr + 1);
                 arr[tgr] = Convert.ToInt32(Console.ReadLine());
             }
+
+            // cetak data sebelum diurutkan 
+            Console.Write("\nData sebelum diurutkan\n");
+            for (tgr = 0; tgr <= n - 1; tgr++)
+            {
+                Console.Write("{0} ", arr[tgr]);
+            }
         }
     }
 }
