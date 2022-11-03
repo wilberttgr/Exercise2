@@ -38,6 +38,11 @@ namespace Exercise2
             Console.WriteLine("2. Insertion Sort");
             Console.Write("Pilihan : ");
             int pilihan = Convert.ToInt32(Console.ReadLine());
+            
+            switch (pilihan)
+            {
+
+            }
         }
     }
 }
